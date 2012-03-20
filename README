@@ -1,0 +1,16 @@
+This is a 3-function USB footswitch. Tapping it sends a "down" 
+keystroke. Holding it for a moment will cause it beep, and the 
+subsequent taps will send "up". It can be switched back and forth by 
+holding it again. Holding it down until the second beep will send the 
+Windows shortcut Win+L which locks the computer.
+
+Materials:
+-Adafruit footswitch (or other normally open pushbutton)
+-Piezo buzzer
+-Teensy 2.0
+-Mini USB cable
+
+The switch and the buzzer are connected directly to the Teensy board. 
+The pins are defined at the top of the sketch. The pins I have chosen 
+allow the components to be soldered directly to the board without 
+any extra wire.
