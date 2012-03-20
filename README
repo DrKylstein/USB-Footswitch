@@ -5,9 +5,9 @@ holding it again. Holding it down until the second beep will send the
 Windows shortcut Win+L which locks the computer.
 
 Materials:
--Adafruit footswitch (or other normally open pushbutton)
--Piezo buzzer
--Teensy 2.0
+-Adafruit footswitch (or other normally open pushbutton) <adafru.it/423>
+-Piezo buzzer <adafru.it/160>
+-Teensy 2.0 <adafru.it/199>
 -Mini USB cable
 
 The switch and the buzzer are connected directly to the Teensy board. 
